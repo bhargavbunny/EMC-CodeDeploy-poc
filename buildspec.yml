@@ -10,10 +10,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t kdrnaik24/ems_java_docker_image:latest .
-      - docker tag kdrnaik24/ems_java_docker_image:latest kdrnaik24/ems_java_docker_image:latest
+      - docker build -t yogita/ems_java_docker_image:latest .
+      - docker tag yogita/ems_java_docker_image:latest yogita/ems_java_docker_image:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push kdrnaik24/ems_java_docker_image:latest
+      - docker push yogita/ems_java_docker_image:latest
