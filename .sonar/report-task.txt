@@ -1,0 +1,5 @@
+projectKey=EMC
+serverUrl=http://172.27.59.59:9005
+dashboardUrl=http://172.27.59.59:9005/dashboard/index/EMC
+ceTaskId=AWCXItrtxB8rwHCZrglH
+ceTaskUrl=http://172.27.59.59:9005/api/ce/task?id=AWCXItrtxB8rwHCZrglH
